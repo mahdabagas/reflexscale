@@ -10,10 +10,13 @@ export default {
       primary: "#F976AC",
       secondary: "#FEE0E0",
       blue: "#0099FF",
-      white: "#FFF7F5"
+      white: "#FFF7F5",
+      red: "#DC143C"
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated'),
+  ],
 }
 
